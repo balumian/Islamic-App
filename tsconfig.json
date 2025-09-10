@@ -11,7 +11,16 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "screens/catalogs/index.js",
+    "screens/components/audioCatalog.js",
+    "screens/components/home/topBar.js",
+    "screens/components/home/prayer.js",
+    "screens/components/home/live.js",
+    "screens/components/home/hadith.js",
+    "screens/components/home/footer.js",
+    "screens/components/titleBar.js",
+    "screens/Zakat/index.js",
+    "App.js",
+    "app/screens/home/index.js"
   ]
 }
