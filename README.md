@@ -2,6 +2,8 @@
 
 A high-performance **React Native + Expo** mobile app concept with audio, PDF, prayer, and notification modules. Crafted for cross-platform iOS and Android delivery, this repository illustrates a feature-rich structure and recruiter-friendly engineering mindset.
 
+![Banner](banner.png)
+
 ## 🚀 Project overview
 
 MIJ is a modular mobile experience for spiritual learning:
@@ -14,8 +16,8 @@ MIJ is a modular mobile experience for spiritual learning:
 ## ✨ What makes this project strong
 
 - Component-based architecture in `app/components/`
-- Screen-first feature layout in `app/screens/`
-- Context API state management in `app/context/`
+- Screen-first feature layout in `/screens/`
+- Context API state management in `aapppp/context/`
 - Reusable hooks in `app/hooks/`
 - REST + Axios integration in `utils/axiosInstance.js`
 - i18n resources in `locales/en.json`, `locales/dv.json`
