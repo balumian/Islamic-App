@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# MIJ — Mobile Islamic Journal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A high-performance **React Native + Expo** mobile app concept with audio, PDF, prayer, and notification modules. Crafted for cross-platform iOS and Android delivery, this repository illustrates a feature-rich structure and recruiter-friendly engineering mindset.
 
-## Get started
+## 🚀 Project overview
 
-1. Install dependencies
+MIJ is a modular mobile experience for spiritual learning:
+- Curated audio lessons and recitations
+- PDF library and viewer
+- Dynamic prayer time engine + reminder alerts
+- Guided tours, user onboarding, and Zakat calculator
+- Multilingual support (English, Divehi)
 
-   ```bash
-   npm install
-   ```
+## ✨ What makes this project strong
 
-2. Start the app
+- Component-based architecture in `app/components/`
+- Screen-first feature layout in `app/screens/`
+- Context API state management in `app/context/`
+- Reusable hooks in `app/hooks/`
+- REST + Axios integration in `utils/axiosInstance.js`
+- i18n resources in `locales/en.json`, `locales/dv.json`
 
-   ```bash
-   npx expo start
-   ```
+## 🗂️ Key modules & placeholder functionality
 
-In the output, you'll find options to open the app in a
+### 1. Home
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Dashboard cards: Today’s prayer, latest audios/PDFs, quick actions
+- Sync status, user greetings, live tile updates
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 2. Audio catalog & player
 
-## Get a fresh project
+- Category navigation, playback queue, background audio controls
+- Download + offline queue placeholder
 
-When you're ready, run:
+### 3. PDF catalogs & viewer
 
-```bash
-npm run reset-project
-```
+- Document favorite + annotation placeholders
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 4. Prayer times
 
-## Learn more
+- Calculation settings, location + offset, Adhan scheduling
 
-To learn more about developing your project with Expo, look at the following resources:
+### 5. Notifications
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Push token registration, local reminders, history log
 
-## Join the community
+### 6. Tours & Zakat
 
-Join our community of developers creating universal apps.
+- User guided walkthroughs; Zakat assets/threshold calculator
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📌 Notes for recruiters
+- Clean modular design with clear separation of concerns
+- Production-ready patterns for mobile features
+- Room to expand: social features, payment, analytics, real-time sync
+
+---
+
+> This README is updated to showcase the app’s potential, architecture, and placeholders for a complete product pitch that impresses recruiters.
